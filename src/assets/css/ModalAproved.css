@@ -1,0 +1,70 @@
+.ModalContainer{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: black;
+    width: 25vw;
+    height: 30vh;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25); 
+    /* box-shadow: 0 0 0 1px rgba(0,0,0,.03), 0 2px 4px rgba(0,0,0,.05), 0 12px 24px rgba(0,0,0,.05);  */
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+.closeModal{
+    width: 100%;
+    height: 10%;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    color: #39A900CC;
+}
+
+.closeModal .closeIcon{
+    color: #39A900CC;
+    margin-right: -0.3rem;
+}
+
+.checkModal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 40%;
+    margin: 0;
+}
+
+.iconCheck{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100% ;
+    color: #39A900CC;
+    font-size: 6rem;
+}
+.textCheck{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 50%;
+    padding: 1rem;
+}
+.textCheck1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-weight: bolder;
+    color: #39A900CC;
+}
+
+.textCheck2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-weight: bolder;
+} 

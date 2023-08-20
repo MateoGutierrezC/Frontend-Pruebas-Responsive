@@ -1,0 +1,28 @@
+.searchBar {
+    display: flex;
+    align-items: center;
+    height: 5vh;
+}
+
+.sbButton input {
+    border-radius: 10px 0px 0px 10px;
+    background-color: #39A900;
+    padding: 0.24rem 0.5rem 0.24rem 0.5rem;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.sbInput input{
+    border-radius: 0px 10px 10px 0px;
+    border: #39A900 1px solid;
+    padding: 0.2rem 0.5rem 0.2rem 0.5rem;
+    background-color: #fff;
+    color: black;
+    margin-left: -0.5rem;
+}
+
+.sbInput input:focus{
+    background-color: rgba(217, 217, 217, 1);
+    outline: none;
+}

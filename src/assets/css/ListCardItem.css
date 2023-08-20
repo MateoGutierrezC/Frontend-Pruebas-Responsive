@@ -1,0 +1,44 @@
+.clContainer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #fff;
+    border: 1px solid #39A900;
+    border-radius: 10px;
+    width: 40vw;
+    max-width: 40vw;
+    height: fit-content;
+    /* gap: 1rem; */
+}
+
+.stateItem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.circleItem{
+    width: 2vh;
+    height: 2vh;
+    background-color: #F8B200;
+    border-radius: 50%;
+}
+
+.stateText{
+    color: black;
+}
+
+.typedocItem{
+    color: black;
+}
+
+.dateItem{
+    color: black;
+}
+
+.buttonItem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

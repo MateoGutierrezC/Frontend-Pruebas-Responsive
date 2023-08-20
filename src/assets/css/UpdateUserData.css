@@ -1,0 +1,41 @@
+.UpContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 60vh;
+    width: 30vw;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25); 
+    padding: 0 5vw 0 5vw;
+    gap: 1rem;
+    border-radius: 10px;
+}
+.Uptitle{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    width: 100%;
+    height: 25%;
+}
+.Uptitle p{
+    color: black;
+    font-size: large;
+    font-weight: 600;
+}
+
+
+.UpInputs{
+    width: 100%;
+    height: 55%;
+}
+
+.UpButton{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    align-items: center;
+    width: 30vw;
+    height: 20%;
+    background-color: rgba(213, 213, 213, 0.80);
+    border-radius: 0px 0px 10px 10px ;
+}

@@ -1,0 +1,18 @@
+.RCContainer{
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+    min-width: 16vw;
+    max-width: fit-content;
+    min-height: 15vh;
+    max-height: fit-content;
+    padding: 0.3rem;
+    text-align: start;
+}
+
+.RCContainer .RComment{
+    font-size: small;
+}
+.RCContainer .RReason{
+    font-size: smaller;
+}

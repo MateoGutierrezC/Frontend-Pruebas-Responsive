@@ -1,0 +1,32 @@
+.InpOpt {
+    /* display: flex;
+    align-items: center;
+    height: 5vh;
+    gap: 1rem; */
+}
+
+
+.textInpOp {
+    display: flex;
+    justify-content: flex-start;
+    align-self: center;
+    text-align: start;
+    color: black;
+    width: 30%;
+}
+
+.InpO select{
+    color: black;
+    background: rgba(217, 217, 217, 0.40);
+    border-radius: 5px;
+    border: 1px solid rgba(57, 169, 0, 0.30);
+    padding: 0.2rem 0.5rem 0.2rem 0.5rem;
+    width: 20vw;
+    max-width: 20vw;
+}
+
+.InpO select:focus{
+    border: #39A900 2px solid;
+    outline: none;
+    font-weight: bold;
+}

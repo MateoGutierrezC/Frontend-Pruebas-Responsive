@@ -1,0 +1,10 @@
+.infoContainer{
+    border:  1px solid #39A900;
+    width:70%;
+    height: 20%;
+    color: black;
+    padding: 1rem;
+    border-radius: 10px;
+    text-align: start;
+    font-weight: 600;
+}
