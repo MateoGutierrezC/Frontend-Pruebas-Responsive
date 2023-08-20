@@ -11,6 +11,7 @@ function InputDefault({ text }: InputDef) {
                 <p>{text}</p>
             </div>
             <div className='Inp'>
+                <label htmlFor="">hshs</label>
                 <input type="text" />
             </div>
         </div>

@@ -19,7 +19,6 @@ function DefaultContainer({ text, showDueProcess, showRejectedComent }: DefaultC
                 {showDueProcess && <DueProcess text='Hola' />}
                 {showRejectedComent && <RejectedComent comment='Motivo:' reason='Falta un libro en biblioteca'/>}
 
-               {/*  {showComponent && <DefaultButton title='Hola' />} */}
             </div>
         </div>
     )

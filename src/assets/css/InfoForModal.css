@@ -1,26 +1,19 @@
 .IMCont{
     display: flex;
-    align-items: center;
-    gap: 1rem;
-    height:3.5vh;
+    justify-content: space-between;
     max-width: 20vw;
     width: 18vw;
-    margin-top: 0.1rem;
 }
 
 .IMTitle{
     font-size: small;
-    display: flex;
-    align-self: center;
-    text-align: start;
-    flex-direction: column;
     color: black;
     font-weight: bolder;
     width: 70%;
-    line-height: 100%;
 }
 
 .IMText{
+    display: flex;
     color: black;
     font-size: small;
 }

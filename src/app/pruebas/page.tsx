@@ -1,6 +1,6 @@
 import "./pruebas.css"
 import CommentInput from "@/components/CommentInput"
-// import DefaultButton from "@/components/DefaultButton"
+import DefaultButton from "@/components/DefaultButton"
 import DefaultContainer from "@/components/DefaultContainer"
 import DueProcess from "@/components/DueProcess"
 import InfoDefault from "@/components/InfoDefault"
@@ -16,7 +16,6 @@ import LoginInput from "@/components/LoginInput"
 import Logo from "@/components/Logo"
 import ModalAproved from "@/components/ModalAproved"
 import ModalDueRequest from "@/components/ModalDueRequest"
-import ModalRejectedRequest from "@/components/ModalRejectedRequest"
 import ModalRequest from "@/components/ModalRequest"
 import RejectedComment from "@/components/RejectedComment"
 import RightSideContainer1 from "@/components/RightSideContainer1"
@@ -33,7 +32,7 @@ function page() {
   return (
     <div className="pruebaComponente">
       {/* <CommentInput></CommentInput> */}
-      {/* <DefaultButton></DefaultButton> */}
+      {/* <DefaultButton title={"hola"}></DefaultButton> */}
       {/* <DefaultContainer></DefaultContainer> */}
       {/* <DueProcess text={"Hola"}></DueProcess> */}
       {/* <InfoDefault text={"hola"}></InfoDefault> */}
@@ -47,10 +46,9 @@ function page() {
       {/* <LoginButton title={"click"}></LoginButton> */}
       {/* <LoginInput title={"Contraseña"} inputType={"text"}></LoginInput> */}
       {/* <Logo src={"/img/Logo.svg"} alt={"Logo"} ></Logo> */}
-      {/* <ModalAproved firsttext={"asd"} secondtext={"asd"} icon1={BiSolidUser} icon2={BiSolidUser}></ModalAproved> problema con iconos */}
-      {/* <ModalDueRequest></ModalDueRequest>  //problema con iconos */}
-      {/* <ModalRejectedRequest title={"Hola"}></ModalRejectedRequest> */}
-      {/* <ModalRequest></ModalRequest> */}
+      {/* <ModalAproved firsttext={"asd"} secondtext={"asd"} icon1={BiSolidUser} icon2={BiSolidUser}></ModalAproved> */}
+      {/* <ModalDueRequest></ModalDueRequest> */}
+      <ModalRequest></ModalRequest>
       {/* <RejectedComment comment={"comentario"} reason={"Razon"}></RejectedComment> */}
       {/* <RightSideContainer1></RightSideContainer1> */}
       {/* <RightSideContainer2></RightSideContainer2> */}

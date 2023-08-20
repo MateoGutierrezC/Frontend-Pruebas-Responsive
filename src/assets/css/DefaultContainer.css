@@ -5,8 +5,7 @@
     flex-direction: column;
     min-width: 10vw;
     max-width: fit-content;
-    max-height: 25vh;
-    height: 25vh;
+    height: 80%;
     color: black;
     font-weight: 600;
     padding: 1rem;

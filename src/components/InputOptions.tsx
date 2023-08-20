@@ -12,7 +12,7 @@ function InputOptions({ text, option1,option2,option3 }: InputOpt) {
     return (
         <div className='InpOpt'>
             <label className='textInpOp'>
-                <p>{text}</p>
+                {text}
             </label>
 
             <div className='InpO'>

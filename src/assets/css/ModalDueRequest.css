@@ -11,15 +11,22 @@
     max-height: 100%;
     max-width: fit-content;
     margin: 1rem;
-    gap: 1.5rem;
+}
+
+.ContainerModInfo {
+    height: 33%;
+    overflow:auto;
+}
+.ContainerModInfo label{
+    font-weight: bold;
 }
 
 .ModInfo {
     display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
-    height: 25%;
+    height: fit-content;
+    gap: 0.2rem;
+    margin: 1rem;
 }
 
 .ModCont {
@@ -27,25 +34,16 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 45%;
+    height: 55%;
 }
 
-.ModDload{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    height: 5%;
-    color: #fff;
-}
 
 .ModButton {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
     background-color: rgba(213, 213, 213, 0.80);
     border-radius: 0px 0px 10px 10px ;
     width: calc(100% + 5rem);
-    height: 25%;
+    height: 12%;
 }
