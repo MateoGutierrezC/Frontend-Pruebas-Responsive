@@ -21,7 +21,7 @@ function ListCardItem({ state, typedoc, date }: ListItem) {
                 <p>{date.toLocaleDateString()}</p>
             </div>
             <div className="buttonItem">
-                <DefaultButton title='Información'></DefaultButton>
+                <DefaultButton title='Información' type={"button"}></DefaultButton>
             </div>
         </div>
     )
