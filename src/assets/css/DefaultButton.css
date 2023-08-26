@@ -1,5 +1,4 @@
 .defaultBtn {
-    /* width: fit-content; */
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -28,6 +27,6 @@
 } 
 
 
-.iBtn {
+/* .iBtn {
     color: #fff;
-}
+} */

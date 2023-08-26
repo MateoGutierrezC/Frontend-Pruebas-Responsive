@@ -1,22 +1,21 @@
 import './Login.css'
 import LeftSideContainer from '@/components/LeftSideContainer'
-import RightSideContainerFirst from '@/components/RightSideContainer1'
-import RightSideContainerSecond from '@/components/RightSideContainer2'
+import Logo from '@/components/Logo'
+import FormLogin from '@/components/FormLogin'
 
 function Login() {
     return (
-        <main>
+        <main className='container flex mx-auto  justify-center items-center h-screen'>
             <div className='main-container'>
                 <div className='left-side'>
-                    <LeftSideContainer></LeftSideContainer>
+                    <LeftSideContainer/>
                 </div>
                 <div className='right-side'>
-                    <RightSideContainerFirst></RightSideContainerFirst>
-                    {/* <RightSideContainerSecond></RightSideContainerSecond> */}
+                    <Logo src="/img/Logo.svg" alt='LogoSena'></Logo>
+                    <FormLogin/>
                 </div>
             </div>
         </main>
-
     )
 
 }

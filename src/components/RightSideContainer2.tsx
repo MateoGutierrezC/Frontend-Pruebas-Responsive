@@ -7,7 +7,7 @@ import InfoDefault from './InfoDefault'
 function RightSideContainerSecond() {
     return (
         <div className='rightContainer1'>
-            <Logo src="/img/Logo.png" alt='LogoSena'></Logo>
+            {/* <Logo src="/img/Logo.png" alt='LogoSena'></Logo> */}
             <InfoDefault text='
             Info
             '></InfoDefault>
