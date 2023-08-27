@@ -14,7 +14,7 @@ function ModalRequest() {
                 <InputOptions option1='a' option2='b' option3='c' text='Hola'></InputOptions>
             </div>
             <div className="MRButton">
-                <DefaultButton title='Enviar'></DefaultButton>
+                <DefaultButton title='Enviar' type={"button"}></DefaultButton>
             </div>
         </div>
     )

@@ -20,7 +20,7 @@ function UpdateUserData({ text }: Update) {
                 <InputDefault text='Ciudad'></InputDefault>
             </div>
             <div className="UpButton">
-                <DefaultButton title='Guardar'></DefaultButton>
+                <DefaultButton title='Guardar' type={"submit"}></DefaultButton>
             </div>
         </div>
     )

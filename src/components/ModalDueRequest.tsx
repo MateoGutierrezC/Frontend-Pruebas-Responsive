@@ -24,7 +24,7 @@ function ModalDueRequest() {
                 <DefaultContainer showDueProcess={true} text='Parece que tiene algunos procesos pendiente'></DefaultContainer>
             </div>
             <div className="ModButton">
-                <DefaultButton title='Aceptar'></DefaultButton>
+                <DefaultButton title='Aceptar' type={"button"}></DefaultButton>
             </div>
         </div>
     )

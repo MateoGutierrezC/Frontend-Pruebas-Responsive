@@ -1,7 +1,6 @@
 import '../assets/css/DefaultContainer.css'
 import DueProcess from './DueProcess'
 import RejectedComent from './RejectedComment'
-/* import DefaultButton from './DefaultButton' */
 
 interface DefaultContainer {
     text?: string

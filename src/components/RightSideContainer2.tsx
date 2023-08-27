@@ -11,7 +11,7 @@ function RightSideContainerSecond() {
             <InfoDefault text='
             Info
             '></InfoDefault>
-            <DefaultButton title='Sofia Plus'></DefaultButton>
+            <DefaultButton title='Sofia Plus' type={"button"}></DefaultButton>
         </div>
     )
 }
