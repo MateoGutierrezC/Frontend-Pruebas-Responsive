@@ -1,0 +1,35 @@
+h2{
+  text-align: left;
+  width: 55vw;
+  font-size: 32px;
+  font-weight: 800;
+  margin-left: 3rem;
+}
+
+.perfil-container{
+  display: flex;
+  flex-direction: column;
+  height: 70vh;
+  gap: 2rem;
+}
+
+.perfilInfo-container{
+  background: rgba(57, 169, 0, 0.2);
+  padding: 2rem 3rem;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+.perfilInfo-item label{
+  margin-right: 0.7rem;
+  font-weight: 700;
+}
+
+input{
+  outline: none;
+  background-color: rgba(0, 0, 0, 0);
+  border: 0;
+}

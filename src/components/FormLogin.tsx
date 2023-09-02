@@ -2,27 +2,29 @@
 import '../assets/css/RightSideContainer1.css'
 import DefaultButton from './DefaultButton'
 import { useForm } from "react-hook-form"
+import { useRouter } from 'next/navigation';
 
 
 function FormLogin() {
+    const router = useRouter()
     const { register, formState: { errors }, handleSubmit, reset } = useForm();
-
+        
     async function enviar(dataToSend: string) {
         try {
-            const response = await fetch('/ruta-del-backend', {
-                method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json',
-                },
-                body: JSON.stringify(dataToSend),
-            });
+            // const response = await fetch('/ruta-del-backend', {
+            //     method: 'POST',
+            //     headers: {
+            //         'Content-Type': 'application/json',
+            //     },
+            //     body: JSON.stringify(dataToSend),
+            // });
 
-            if (!response.ok) {
-                throw new Error('Error en la solicitud al servidor');
-            }
+            // if (!response.ok) {
+            //     throw new Error('Error en la solicitud al servidor');
+            // }
 
-            const data = await response.json();
-            console.log(data);
+            // const data = await response.json();
+            // console.log(data);
         } catch (error) {
             console.error('Error al enviar datos al servidor:', error);
         }
@@ -31,8 +33,12 @@ function FormLogin() {
     const onSubmit = handleSubmit((data) => {
         console.log(data);
         const dataToSend = JSON.stringify(data)
+        console.log(dataToSend);
         enviar(dataToSend)
         reset()
+        if(data.document === "user"){
+            router.push('/user')
+        }
     })
 
     return (

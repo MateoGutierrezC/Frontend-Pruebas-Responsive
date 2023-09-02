@@ -40,7 +40,7 @@ function page() {
       {/* <InputDefault text={"Hola"}></InputDefault> */}
       {/* <InputOptions text={"hola"} option1={"1"} option2={"2"} option3={"3"}></InputOptions> */}
       {/* <ItemRequestRejected></ItemRequestRejected> */}
-      <ItemsContainer></ItemsContainer>
+      {/* <ItemsContainer></ItemsContainer> */}
       {/* <LeftSideContainer></LeftSideContainer> */}
       {/* <ListCardItem state={"asd"} typedoc={"asdasd"} date={new Date(2023, 11, 12)}></ListCardItem> */}
       {/* <LoginButton title={"click"}></LoginButton> */}
@@ -57,7 +57,7 @@ function page() {
         <SidebarButton text='Solicitudes' icon={BiFile}></SidebarButton>
         <SidebarButton text='Perfil' icon={BiSolidUser}></SidebarButton>
       </SideBar> */}
-      {/* <SidebarButton icon={BiFile}></SidebarButton> //Problema con iconos */}
+      {/* <SidebarButton icon={BiFile} href={"./"} text="hola"></SidebarButton> */}
       {/* <UpdateUserData text={"Pepito Perez"}></UpdateUserData> */}
     </div>
   )
