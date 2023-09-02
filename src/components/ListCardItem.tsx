@@ -11,8 +11,10 @@ function ListCardItem({ state, typedoc, date }: ListItem) {
     return (
         <div className="clContainer">
             <div className="stateItem">
-                <div className="circleItem"></div>
-                <div className="stateText">{state}</div>
+                {state === "aprobado" && <div className="circleItem aprobado"></div>}
+                {state === "rechazado" && <div className="circleItem rechazado"></div>}
+                {state === "pendiente" && <div className="circleItem pendiente"></div>}
+                <p >{state}</p>
             </div>
             <div className="typedocItem">
                 <p>{typedoc}</p>

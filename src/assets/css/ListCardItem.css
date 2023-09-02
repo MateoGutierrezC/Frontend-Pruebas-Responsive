@@ -5,9 +5,12 @@
     background-color: #fff;
     border: 1px solid #39A900;
     border-radius: 10px;
-    width: 40vw;
-    max-width: 40vw;
+    width: 50vw;
+    max-width: 50vw;
     height: fit-content;
+    margin-bottom: 0.65rem;
+    font-weight: 500;
+    color: black;
 }
 
 .stateItem{
@@ -23,13 +26,19 @@
     background-color: #F8B200;
     border-radius: 50%;
 }
-
-.stateText{
-    color: black;
+.aprobado{
+    background: rgba(82, 255, 0, 1);
+}
+.rechazado{
+    background: rgba(255, 0, 0, 1);
+}
+.pendiente{
+    background-color: #F8B200;
 }
 
-.typedocItem{
+.typedocItem p{
     color: black;
+    text-align: left;
 }
 
 .dateItem{
