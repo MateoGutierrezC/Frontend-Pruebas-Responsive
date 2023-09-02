@@ -9,9 +9,10 @@ function SearchBar({ text }: SearchBar) {
     return (
         <div className='searchBar'>
             <div className='sbButton'>
-                <a className='submitButton' href="#">
-                    <input type="submit" value={text} />
-                </a>
+                <button className='submitButton' type='submit'>
+                    {/* <input type="submit" value={text} /> */}
+                    {text}
+                </button>
             </div>
             <div className="sbInput">
                 <input type="text" />

@@ -26,7 +26,7 @@ import SidebarButton from "@/components/SidebarButton"
 import UpdateUserData from "@/components/UpdateUserData"
 
 
-import { BiFile, BiSolidUser,BiSolidLeftArrowCircle } from 'react-icons/bi'
+import { BiFile, BiSolidUser, BiSolidLeftArrowCircle } from 'react-icons/bi'
 
 function page() {
   return (
@@ -48,15 +48,18 @@ function page() {
       {/* <Logo src={"/img/Logo.svg"} alt={"Logo"} ></Logo> */}
       {/* <ModalAproved firsttext={"asd"} secondtext={"asd"} icon1={BiSolidUser} icon2={BiSolidUser}></ModalAproved> */}
       {/* <ModalDueRequest></ModalDueRequest> */}
-      <ModalRequest></ModalRequest>
+      {/* <ModalRequest></ModalRequest> */}
       {/* <RejectedComment comment={"comentario"} reason={"Razon"}></RejectedComment> */}
       {/* <RightSideContainer1></RightSideContainer1> */}
       {/* <RightSideContainer2></RightSideContainer2> */}
       {/* <SearchBar text={"Buscar"}></SearchBar> */}
-      {/* <SideBar></SideBar> //Problema con iconos */}
+      {/* <SideBar>
+        <SidebarButton text='Solicitudes' icon={BiFile}></SidebarButton>
+        <SidebarButton text='Perfil' icon={BiSolidUser}></SidebarButton>
+      </SideBar> */}
       {/* <SidebarButton icon={BiFile}></SidebarButton> //Problema con iconos */}
       {/* <UpdateUserData text={"Pepito Perez"}></UpdateUserData> */}
-    </div> 
+    </div>
   )
 }
 

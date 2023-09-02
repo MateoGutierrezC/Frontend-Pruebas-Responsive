@@ -1,9 +1,9 @@
-.sbuttonC{
+/* .sbuttonC{
     display: flex;
     justify-content: flex-start;
     align-items: center; 
     height: 10%;
-} 
+}  */
 
 .sbutton{
     display: flex;

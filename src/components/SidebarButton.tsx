@@ -1,19 +1,22 @@
-import { createElement } from 'react';
+import Link from 'next/link';
 import '../assets/css/SidebarButton.css'
-import { IconType } from 'react-icons'; 
+import { createElement } from 'react';
+import { IconType } from 'react-icons';
 
 interface SBbutton {
     text?: string
-    icon: IconType;
+    icon: IconType
+    href: string
 }
 
-function SidebarButton({ text,icon, }:SBbutton){
+function SidebarButton({ text, icon, href}: SBbutton) {
+    
     return (
         <div className="sbuttonC">
-            <a className='sbutton' href="">           
-            {createElement(icon, {})}
-            <a className="text">{text}</a>
-            </a>
+            <Link className='sbutton' href={href}>
+                {createElement(icon, {})}
+                <p className="text">{text}</p>
+            </Link>
         </div>
     );
 };
