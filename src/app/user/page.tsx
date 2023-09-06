@@ -1,7 +1,9 @@
 
 function User() {
   return (
-    <div>User</div>
+    <div>
+      
+    </div>
   )
 }
 

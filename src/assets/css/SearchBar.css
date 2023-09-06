@@ -16,26 +16,34 @@
     font-size: small;
     background-color: #39A900;
     padding: 0.24rem 1rem;
-    border-radius: 10px 0px 0px 10px;
+    border-radius: 8px 0px 0px 8px;
     border: none;
     font-weight: bold;
     cursor: pointer;
     height: 100%;
+    -webkit-border-radius: 8px 0px 0px 8px;
+    -moz-border-radius: 8px 0px 0px 8px;
+    -ms-border-radius: 8px 0px 0px 8px;
+    -o-border-radius: 8px 0px 0px 8px;
 }
 .sbButton:hover{
     background-color: #328d04;
 }
 
 .sbInput{
-    border-radius: 0px 10px 10px 0px;
+    border-radius: 0px 8px 8px 0px;
     padding: 0.2rem 0.5rem;
     background-color: #fff;
     color: black;
     height: 98%;
     width: 18vw;
+    -webkit-border-radius: 0px 8px 8px 0px;
+    -moz-border-radius: 0px 8px 8px 0px;
+    -ms-border-radius: 0px 8px 8px 0px;
+    -o-border-radius: 0px 8px 8px 0px;
 }
 
 .sbInput:focus{
-    /* background-color: rgba(217, 217, 217, 1); */
     outline: none;
+    height: 100%;
 }

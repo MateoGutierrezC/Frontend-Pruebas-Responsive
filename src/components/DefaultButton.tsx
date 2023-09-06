@@ -15,7 +15,7 @@ function DefaultButton({ type, title, icon, color }: DefaultButton) {
     };
 
     return (
-        <div className='defaultBtn' >
+        <div>
             <button
                 type={type}
                 style={btnStyle}

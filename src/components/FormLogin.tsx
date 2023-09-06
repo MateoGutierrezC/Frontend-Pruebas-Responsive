@@ -1,5 +1,5 @@
 "use client"
-import '../assets/css/RightSideContainer1.css'
+import '../assets/css/FormLogin.css'
 import DefaultButton from './DefaultButton'
 import { useForm } from "react-hook-form"
 import { useRouter } from 'next/navigation';
@@ -37,7 +37,7 @@ function FormLogin() {
         enviar(dataToSend)
         reset()
         if(data.document === "user"){
-            router.push('/user')
+            router.push('/user/solicitudes')
         }
     })
 
@@ -53,7 +53,7 @@ function FormLogin() {
                     })}
                 />
                 {
-                    errors.document?.type === "required" && <span>Documento requerido</span>
+                    errors.document?.type === "required" && <span className='form-validation'>Documento requerido</span>
                 }
                 <input
                     className='loginInput'
@@ -64,13 +64,13 @@ function FormLogin() {
                     })}
                 />
                 {
-                    errors.password && <span>Contraseña requerida</span>
+                    errors.password && <span className='form-validation'>Contraseña requerida</span>
                 }
                 <div className='Login-ButtonContainer'>
                     <DefaultButton title='Ingresar' type={'submit'}></DefaultButton>
                 </div>
                 {/* {
-                    error con la peticion && <span>Usuario no encontrado</span>
+                    error con la peticion && <span className='form-validation'>Usuario no encontrado</span>
                 } */}
             </form>
         </div>

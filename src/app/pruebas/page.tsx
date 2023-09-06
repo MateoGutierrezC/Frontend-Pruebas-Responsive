@@ -27,6 +27,7 @@ import UpdateUserData from "@/components/UpdateUserData"
 
 
 import { BiFile, BiSolidUser, BiSolidLeftArrowCircle } from 'react-icons/bi'
+import ModalUpdate from "@/components/ModalUpdate"
 
 function page() {
   return (
@@ -49,6 +50,7 @@ function page() {
       {/* <ModalAproved firsttext={"asd"} secondtext={"asd"} icon1={BiSolidUser} icon2={BiSolidUser}></ModalAproved> */}
       {/* <ModalDueRequest></ModalDueRequest> */}
       {/* <ModalRequest></ModalRequest> */}
+      <ModalUpdate></ModalUpdate>
       {/* <RejectedComment comment={"comentario"} reason={"Razon"}></RejectedComment> */}
       {/* <RightSideContainer1></RightSideContainer1> */}
       {/* <RightSideContainer2></RightSideContainer2> */}

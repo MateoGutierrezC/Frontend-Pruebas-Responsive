@@ -1,8 +1,10 @@
 "use client"
 import "../../../assets/css/user/userPerfil.css"
-import React from 'react'
+import { useRouter } from 'next/navigation'
+
 
 function Perfil() {
+  const router = useRouter()
 
   const user = {
     nombre: "Pepito",
@@ -11,6 +13,10 @@ function Perfil() {
     telefono: "3130001234",
     ciudad: "Bogota",
     centroFormacion: "CEET"
+  }
+
+  const onClick = () => {
+    router.push('./perfil/actualizar-datos')
   }
 
   return (
@@ -29,7 +35,7 @@ function Perfil() {
 
         <div className="perfilInfo-item">
           <label htmlFor="correo">Correo: </label>
-          <input name="correo" type="text" value={user.correo} readOnly/>
+          <input name="correo" type="mail" value={user.correo} readOnly/>
         </div>
 
         <div className="perfilInfo-item">
@@ -46,6 +52,11 @@ function Perfil() {
           <label htmlFor="centroFormacion">Centro de Formacion: </label>
           <input name="centroFormacion" type="text" value={user.centroFormacion} readOnly/>
         </div>
+      </div>
+      <div className="updateButton">
+        <button type="button" className="btn-update" onClick={onClick} >
+          Actualizar datos
+        </button>
       </div>
     </div>
   )
