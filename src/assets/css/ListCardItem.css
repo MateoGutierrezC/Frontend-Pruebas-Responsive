@@ -50,3 +50,18 @@
     justify-content: center;
     align-items: center;
 }
+
+@media screen and (max-width:768px) {
+    .clContainer{
+        flex-direction: column;
+        padding: 1.5rem;
+        max-width: 40vw;
+    }   
+}
+
+@media screen and (max-width:480px) {
+    .clContainer{
+        min-width: 80vw;
+        padding: 1rem;
+    }   
+}

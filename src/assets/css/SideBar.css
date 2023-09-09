@@ -31,3 +31,46 @@
     width: 100%;
     font-size: 0.9rem;
 }
+
+@media  screen and (max-width:768px) {
+        .sidebar{
+            display: flex;
+            justify-content: center;
+            width: 30vw;
+        }
+
+        .btn-sb{
+            display: flex;
+            margin: -2rem;
+
+        }
+
+        .log-out{
+            margin: -2rem;
+        }
+}
+
+@media  screen and (max-width:480px) {
+    .sidebar{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: row;
+        position: absolute;
+        top: 0;
+        width: 100vw;
+        height: 10vh;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+        border-radius:  10px 10px 0 0;
+    }
+    .logo-sb{
+        width: 30%
+    }
+    .btn-sb{
+        display: flex;
+        justify-content: center;
+        width: 50%;
+        height: 10vh;
+    }
+
+}

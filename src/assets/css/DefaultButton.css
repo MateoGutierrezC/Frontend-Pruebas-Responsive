@@ -17,3 +17,10 @@
     cursor: pointer;
     background-color: #328d04;
 } 
+
+@media screen and (max-width:768px) {
+    .btn{
+        font-size: medium;
+        padding: 1vh 4vw;
+    }
+}

@@ -88,3 +88,27 @@
     position: relative;
     margin-left: 1rem;
 }
+
+
+@media screen and (max-width:768px){
+    .MRCont{
+        min-width: 55vw;
+        height: 50vh;
+    }
+
+    .inputRequest{
+        width: 45vw;
+        min-width: 45vw;
+    }
+}
+
+@media screen and (max-width:480px){
+    .MRCont{
+        min-width: 80vw;
+        height: 50vh;
+    }
+    .inputRequest{
+        width: 65vw;
+        min-width: 65vw;
+    }
+}

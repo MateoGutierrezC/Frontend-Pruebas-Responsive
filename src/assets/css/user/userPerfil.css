@@ -1,11 +1,11 @@
-.perfil-container{
+.perfil-container {
   display: flex;
   flex-direction: column;
   height: 70vh;
   gap: 2rem;
 }
 
-.perfil-container h2{
+.perfil-container h2 {
   text-align: left;
   width: 55vw;
   font-size: 32px;
@@ -13,31 +13,28 @@
   margin-left: 3rem;
 }
 
-.perfilInfo-container{
+.perfilInfo-container {
   background: rgba(57, 169, 0, 0.2);
   padding: 2rem 3rem;
   border-radius: 20px;
-  -webkit-border-radius: 20px;
-  -moz-border-radius: 20px;
-  -ms-border-radius: 20px;
-  -o-border-radius: 20px;
 }
 
-.perfilInfo-item{
+.perfilInfo-item {
   margin: 0.8rem 0;
 }
-.perfilInfo-item label{
+
+.perfilInfo-item label {
   margin-right: 0.7rem;
   font-weight: 700;
 }
 
-.perfilInfo-item input{
+.perfilInfo-item input {
   outline: none;
   background-color: rgba(0, 0, 0, 0);
   border: 0;
 }
 
-.updateButton{
+.updateButton {
   display: flex;
   justify-content: end;
   width: 55vw;
@@ -61,4 +58,25 @@
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   cursor: pointer;
   background-color: #328d04;
-} 
+}
+
+@media screen and (max-width:768px) {
+  .perfilInfo-container {
+    width: 55vw;
+  }
+}
+
+@media screen and (max-width:480px) {
+
+  .perfilInfo-container {
+    width: 90vw;
+  }
+  .perfilInfo-item {
+    font-size: 0.8rem;
+  }
+  .updateButton{
+    display: flex;
+    justify-content: center;
+    width: 90vw;
+  }
+}

@@ -27,3 +27,11 @@
 span{
     font-size: 2rem;
 }
+
+@media  screen and (max-width:480px) {
+    
+    .sbutton{
+        height: 3vh;
+        font-size: small;
+    }
+}

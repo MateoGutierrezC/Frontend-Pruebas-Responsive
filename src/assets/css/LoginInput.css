@@ -18,3 +18,9 @@
     color: rgba(57, 169, 0, 0.6);
     font-size: 1rem;
 }
+
+@media screen and (max-width:786px){
+    .inputContainer{
+        width: 30vw;
+    }
+}
